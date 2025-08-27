@@ -1,0 +1,501 @@
+visit_frequency,usage_time_per_visit,no_reports_per_visit,financial_value,customer_type
+14,35,0,13.62,Individual
+8,36,14,83.25,Small Business
+11,29,9,170.33,Large Business
+7,28,10,59.47,Large Business
+11,35,1,26.36,Individual
+2,31,2,13.11,Individual
+10,33,8,74.93,Small Business
+7,33,13,86.22,Small Business
+14,36,2,13.87,Individual
+10,30,9,58.21,Large Business
+7,30,1,13.99,Individual
+8,32,1,13.98,Individual
+5,28,14,176.33,Large Business
+5,26,2,13.63,Individual
+11,27,12,106.89,Small Business
+8,34,13,107.17,Large Business
+11,32,1,13.46,Individual
+8,31,10,42.18,Small Business
+14,32,1,19.83,Small Business
+14,33,11,0.49,Small Business
+11,29,3,14.88,Individual
+13,24,22,63.17,Small Business
+10,33,5,14.67,Individual
+13,37,0,14.31,Individual
+10,33,4,56.57,Small Business
+14,28,4,15.31,Individual
+6,38,3,15.66,Individual
+7,23,8,110.72,Small Business
+0,25,0,16.45,Individual
+4,26,3,21.4,Individual
+9,43,5,74.33,Small Business
+7,26,2,15.36,Individual
+12,30,0,19.97,Small Business
+11,29,6,12.98,Individual
+5,36,18,15.2,Small Business
+11,29,1,13.87,Individual
+10,35,0,18.62,Individual
+9,31,6,14.48,Individual
+12,31,3,22.75,Small Business
+12,35,4,14.85,Individual
+8,28,7,45.49,Small Business
+4,32,1,25.34,Individual
+7,31,2,19.09,Individual
+5,30,13,108.05,Small Business
+12,25,12,100.41,Small Business
+10,25,6,13.63,Individual
+12,35,9,67.66,Small Business
+12,37,9,46.98,Small Business
+8,35,1,14.93,Individual
+5,34,12,69.13,Large Business
+3,28,1,15.59,Individual
+10,29,10,66.83,Small Business
+5,35,5,57.95,Small Business
+14,29,8,63.39,Small Business
+9,35,14,82.12,Small Business
+12,23,2,17.01,Small Business
+6,24,6,77.34,Small Business
+7,35,7,20.66,Small Business
+11,26,7,95.65,Small Business
+16,33,2,13.93,Individual
+14,27,8,137.38,Large Business
+12,35,8,12.07,Small Business
+7,31,9,75.74,Small Business
+12,27,7,68.09,Small Business
+14,34,2,16.46,Small Business
+10,30,2,17.01,Individual
+14,27,13,160.78,Large Business
+9,30,7,63.6,Small Business
+11,30,10,108,Small Business
+9,33,13,53.82,Small Business
+12,23,4,17.53,Individual
+8,34,1,12.37,Individual
+5,33,1,18.85,Small Business
+12,29,9,172.37,Small Business
+16,37,8,110.65,Large Business
+5,36,3,16.13,Individual
+6,38,10,180.66,Small Business
+12,20,3,18.1,Individual
+9,35,14,45.01,Small Business
+11,35,3,15.46,Individual
+11,27,5,38.41,Small Business
+8,27,1,22.85,Individual
+3,34,6,54.02,Small Business
+15,35,1,15.03,Individual
+9,24,8,75.37,Large Business
+13,27,2,19.87,Individual
+13,24,15,193.45,Large Business
+3,31,5,53.04,Large Business
+6,29,12,118.57,Large Business
+8,24,1,15.18,Individual
+12,35,0,20.93,Small Business
+12,31,1,14.12,Individual
+9,27,2,12.37,Individual
+14,31,3,14.73,Individual
+9,32,13,83.3,Small Business
+12,33,7,55.6,Small Business
+12,17,1,18.71,Individual
+16,31,5,19.06,Small Business
+7,28,10,59.76,Small Business
+8,30,0,16.74,Individual
+6,24,1,26.85,Individual
+8,35,0,20.92,Individual
+11,34,17,51.16,Large Business
+11,25,10,130.45,Small Business
+12,27,9,62.85,Small Business
+14,26,1,15.81,Individual
+12,28,10,66.22,Small Business
+7,33,2,15.23,Individual
+14,30,6,32.02,Small Business
+10,24,3,21.31,Small Business
+9,34,2,13.99,Individual
+8,31,3,14.44,Individual
+5,29,2,14.46,Individual
+12,26,12,59.63,Large Business
+10,32,1,9.63,Individual
+7,28,1,15.45,Individual
+11,33,9,69.3,Small Business
+8,37,12,76.68,Small Business
+16,34,13,84.07,Small Business
+10,34,10,61.38,Small Business
+8,40,13,106.13,Small Business
+8,29,4,16.92,Individual
+15,35,1,20.56,Individual
+11,31,1,20.24,Small Business
+11,27,4,15.51,Individual
+6,31,2,17.81,Individual
+8,29,1,15.81,Individual
+11,39,4,19.86,Individual
+14,28,2,16.86,Individual
+5,30,2,16.93,Individual
+6,27,2,20.36,Individual
+12,32,6,14.25,Individual
+8,32,0,14.12,Individual
+9,21,4,21.51,Individual
+14,17,1,14.6,Individual
+10,32,10,39.1,Small Business
+9,34,11,115.69,Large Business
+13,36,8,184.55,Small Business
+4,30,0,12.49,Individual
+13,31,11,117.35,Large Business
+9,33,2,23.92,Individual
+7,30,2,27.5,Individual
+12,37,4,22.08,Individual
+13,38,7,65.17,Small Business
+6,21,8,26.94,Small Business
+6,29,3,22.43,Individual
+12,31,1,14.92,Individual
+16,26,5,0,Small Business
+5,26,0,16.21,Individual
+6,31,6,102.74,Large Business
+13,23,14,42.33,Small Business
+10,39,3,66.46,Small Business
+10,35,2,13.63,Individual
+12,22,1,16.5,Individual
+10,34,10,32.47,Large Business
+14,32,9,89.76,Large Business
+11,25,1,23.58,Individual
+11,35,4,18.05,Individual
+11,15,0,13.38,Individual
+12,29,4,15.09,Individual
+14,36,14,27.77,Small Business
+8,32,1,19.94,Small Business
+5,29,9,70.02,Large Business
+4,28,16,124.45,Small Business
+11,24,0,25.05,Individual
+10,31,0,24.29,Individual
+11,30,7,103.99,Small Business
+10,34,11,70.42,Small Business
+13,26,5,64.97,Large Business
+12,41,2,17.66,Small Business
+11,30,5,118.03,Large Business
+4,27,2,14.9,Individual
+8,29,1,23.76,Individual
+7,26,15,120.97,Small Business
+13,15,17,71.36,Small Business
+9,33,0,15.52,Individual
+10,30,8,57.81,Small Business
+11,20,10,94.32,Large Business
+13,23,3,23.49,Small Business
+7,31,9,114.9,Small Business
+12,30,8,56.72,Small Business
+6,33,2,22.13,Small Business
+8,32,5,15.69,Individual
+13,29,3,15.83,Individual
+13,28,1,16.47,Individual
+6,25,12,42,Small Business
+14,30,11,92.09,Large Business
+11,39,15,67.74,Small Business
+15,25,6,196.95,Large Business
+10,31,1,21.54,Individual
+10,27,1,10.07,Individual
+12,34,1,14.16,Individual
+10,26,4,23.46,Individual
+13,34,9,43.32,Small Business
+6,33,7,88.64,Large Business
+4,33,11,141.91,Large Business
+12,29,11,148.66,Large Business
+13,30,5,14.72,Small Business
+10,34,9,27.62,Small Business
+6,33,0,17.02,Individual
+6,34,1,24.32,Individual
+10,28,3,9.38,Small Business
+10,34,5,225.14,Large Business
+8,34,10,115.56,Small Business
+8,31,11,67.1,Small Business
+6,28,0,14.09,Individual
+13,38,13,13.41,Large Business
+8,24,1,26.4,Individual
+14,27,3,20.48,Small Business
+3,33,2,15.62,Individual
+11,33,11,92.92,Small Business
+9,28,8,70.52,Small Business
+14,21,13,84.69,Small Business
+13,34,0,21.8,Small Business
+12,27,4,83.22,Small Business
+4,41,13,107.99,Large Business
+12,31,2,21.2,Individual
+9,32,5,16.76,Individual
+12,34,16,93.03,Small Business
+9,38,16,53.56,Small Business
+11,34,9,54.02,Small Business
+12,33,8,75.71,Small Business
+13,26,1,25.72,Individual
+10,20,8,85.75,Small Business
+6,33,1,19.27,Individual
+11,38,10,174.83,Large Business
+10,30,1,19.72,Individual
+12,36,2,24.65,Individual
+12,27,2,13.24,Individual
+11,32,9,90.1,Large Business
+9,28,5,137.88,Large Business
+10,27,2,22.27,Small Business
+14,28,9,66.49,Small Business
+8,33,5,67.56,Small Business
+10,35,4,15.08,Individual
+16,35,4,23.32,Individual
+13,22,2,15.38,Individual
+7,34,8,67.23,Large Business
+10,32,9,8.76,Small Business
+8,36,13,71.26,Large Business
+10,24,11,68.68,Large Business
+6,36,4,13.64,Individual
+8,28,13,196.6,Large Business
+16,23,1,20.04,Individual
+10,29,2,13.89,Individual
+11,25,10,77.49,Large Business
+11,25,10,239.75,Large Business
+10,27,0,21.95,Individual
+9,27,2,23.36,Individual
+7,24,7,76.92,Small Business
+11,28,2,13.68,Individual
+8,35,2,13.48,Individual
+9,29,2,14.39,Individual
+8,27,4,21.18,Individual
+7,23,14,81.13,Large Business
+9,37,1,12.86,Individual
+14,26,3,15.73,Individual
+6,24,7,84.31,Small Business
+12,29,3,16.11,Individual
+9,23,14,174.81,Small Business
+11,34,12,95.33,Small Business
+10,40,4,19.43,Individual
+10,29,5,27.02,Individual
+13,30,6,6.28,Large Business
+16,28,4,83.72,Small Business
+7,22,11,90.9,Small Business
+7,31,14,78.1,Small Business
+6,40,12,30.2,Small Business
+12,32,1,20.91,Small Business
+10,32,8,209.63,Large Business
+13,28,2,23.38,Individual
+12,30,11,33.92,Small Business
+13,35,12,93.99,Small Business
+12,30,13,135.26,Large Business
+14,28,0,16.48,Individual
+10,29,18,91.41,Small Business
+14,28,1,14.95,Individual
+14,24,1,16.42,Individual
+6,23,0,16.29,Individual
+10,31,12,110.4,Large Business
+9,20,13,85.62,Small Business
+10,31,10,63.84,Large Business
+11,33,3,15.11,Individual
+4,29,9,45.36,Large Business
+5,29,1,24.06,Individual
+16,29,3,14.35,Individual
+15,25,1,16.23,Individual
+12,25,4,129.69,Small Business
+8,24,1,16.71,Individual
+8,32,18,151.55,Small Business
+7,29,4,15.66,Individual
+12,38,3,15.05,Individual
+15,32,8,61.44,Small Business
+12,22,15,125.27,Large Business
+8,27,2,27.85,Individual
+8,19,3,15.43,Individual
+11,36,8,31.95,Small Business
+14,35,11,21.94,Small Business
+16,35,2,14.52,Individual
+10,31,7,51.13,Small Business
+16,28,3,29.19,Small Business
+2,30,2,22.54,Individual
+13,31,12,108.48,Small Business
+11,28,0,29.04,Individual
+14,35,3,15.1,Individual
+5,30,11,45.66,Small Business
+8,39,3,14.57,Individual
+14,28,7,66.3,Large Business
+12,30,17,83.84,Small Business
+13,42,14,88.21,Small Business
+11,25,3,15.05,Individual
+5,30,11,54.73,Small Business
+12,24,1,25.37,Individual
+11,35,11,15.84,Large Business
+15,26,16,193.52,Large Business
+10,30,8,125.94,Small Business
+11,25,1,14.91,Individual
+12,33,10,99.35,Small Business
+14,34,4,38.07,Small Business
+14,28,10,53.72,Small Business
+13,34,17,54.23,Small Business
+12,33,13,50.53,Small Business
+13,26,1,14.49,Individual
+6,24,4,13.94,Individual
+5,15,1,16.74,Individual
+13,33,3,15.54,Individual
+13,28,14,64.29,Small Business
+13,30,2,15.41,Individual
+9,30,9,93.32,Small Business
+13,28,1,14.21,Individual
+8,26,2,14.95,Individual
+15,29,3,110.35,Large Business
+10,31,7,122.67,Small Business
+8,30,10,51.59,Small Business
+7,27,10,137.49,Large Business
+8,27,8,109.84,Small Business
+10,39,8,61.5,Small Business
+6,28,3,14.19,Individual
+13,29,9,74.48,Small Business
+9,26,0,15.33,Small Business
+13,35,9,62.42,Small Business
+6,29,10,112.56,Small Business
+13,28,12,141.29,Small Business
+13,24,9,67.77,Small Business
+12,32,1,13.77,Individual
+11,33,2,16.81,Individual
+12,36,1,16.21,Individual
+11,34,9,176.11,Large Business
+13,33,12,51.26,Small Business
+12,29,12,186.65,Small Business
+11,35,1,29.29,Individual
+11,29,6,96.44,Large Business
+11,26,5,16.61,Individual
+17,24,0,15.6,Individual
+10,34,12,144.9,Large Business
+4,28,5,15.29,Individual
+13,37,10,75.75,Small Business
+12,28,2,22.36,Individual
+10,17,12,165.43,Large Business
+11,28,10,97.77,Large Business
+12,33,7,65.2,Large Business
+11,29,3,20.98,Small Business
+12,24,13,38.21,Small Business
+11,29,2,19.36,Individual
+10,26,2,14.96,Individual
+15,25,2,14.76,Individual
+12,30,5,14.58,Individual
+7,31,4,15.65,Individual
+9,26,1,14.04,Individual
+7,38,11,64.06,Small Business
+12,34,3,11.24,Individual
+12,28,11,77.89,Small Business
+7,29,11,131.66,Small Business
+10,29,3,16.65,Individual
+5,36,9,59.79,Small Business
+15,26,9,50.89,Small Business
+13,32,2,21.24,Individual
+6,33,1,13.15,Individual
+6,29,4,55.99,Small Business
+7,35,12,91.08,Large Business
+16,29,10,50.72,Small Business
+17,35,2,12.78,Individual
+12,19,7,143.65,Large Business
+12,31,1,16.7,Individual
+6,23,3,18.63,Individual
+7,25,1,19.34,Individual
+11,32,1,16.42,Small Business
+8,30,9,76.84,Small Business
+5,31,3,13.96,Individual
+8,28,2,16.03,Individual
+17,42,15,139.08,Small Business
+16,32,1,20.57,Individual
+7,29,2,15.18,Individual
+4,31,11,159.37,Large Business
+10,25,1,13.6,Individual
+12,22,3,14.58,Individual
+11,30,12,58.08,Small Business
+6,25,7,5.06,Small Business
+11,28,1,169.15,Large Business
+9,32,4,20.29,Large Business
+9,30,4,24.82,Individual
+14,34,15,73.53,Small Business
+13,23,8,23.53,Small Business
+12,33,1,15.66,Individual
+9,28,10,25.07,Small Business
+3,31,2,15.18,Individual
+8,33,9,142.73,Large Business
+13,34,1,18.68,Individual
+13,26,14,121.26,Large Business
+11,30,2,18.23,Individual
+13,21,1,15.9,Individual
+7,23,10,39.06,Small Business
+11,27,5,14.75,Individual
+14,29,12,111.07,Small Business
+5,21,2,27.88,Small Business
+7,34,0,26.44,Individual
+6,28,1,15.57,Individual
+4,35,1,16.26,Individual
+13,25,11,48.28,Small Business
+12,24,11,57.42,Small Business
+5,35,2,18.59,Individual
+12,30,1,13.02,Individual
+13,30,0,16,Individual
+15,29,12,67.08,Small Business
+13,26,2,27.77,Individual
+11,31,4,29.73,Individual
+9,37,1,13.64,Individual
+15,33,10,56.69,Small Business
+9,33,8,59.98,Small Business
+8,29,11,8.4,Large Business
+8,26,8,127.58,Large Business
+5,25,1,14.54,Individual
+9,17,8,69.41,Small Business
+9,38,2,15.08,Individual
+10,27,11,92.55,Small Business
+12,28,6,43.1,Large Business
+13,34,8,144.26,Small Business
+14,28,0,15.97,Individual
+2,27,1,27.45,Individual
+14,30,6,0.52,Small Business
+10,37,9,92.66,Small Business
+13,32,17,16.26,Small Business
+13,28,8,61.1,Large Business
+13,32,1,15.51,Individual
+10,30,9,88.95,Small Business
+9,36,12,17.07,Small Business
+8,33,11,88.88,Large Business
+11,29,13,42.44,Small Business
+11,19,1,18.55,Individual
+1,33,2,14.62,Individual
+4,21,8,21.07,Small Business
+14,34,3,14.66,Individual
+10,27,10,55.68,Small Business
+7,29,0,23.31,Individual
+11,23,4,26.33,Individual
+11,39,4,13.27,Individual
+17,26,1,15.92,Individual
+11,28,1,15.75,Individual
+11,29,9,73.4,Small Business
+8,25,16,87.39,Large Business
+10,30,2,15.91,Individual
+7,35,2,15.66,Individual
+5,33,14,148.9,Small Business
+10,27,10,10.06,Small Business
+10,30,10,30.15,Large Business
+14,24,2,25.19,Individual
+14,24,10,99.19,Large Business
+12,38,13,140.54,Large Business
+10,32,2,23.76,Individual
+11,34,8,61.31,Small Business
+5,30,1,28.44,Individual
+10,35,4,15.41,Individual
+8,38,8,43.82,Small Business
+9,33,11,64.76,Small Business
+11,25,10,92.77,Small Business
+10,26,2,14.38,Individual
+12,15,7,111.67,Large Business
+13,18,0,24.48,Small Business
+9,31,11,65.1,Small Business
+8,33,1,20.56,Individual
+13,36,9,129.15,Large Business
+8,32,8,167.17,Small Business
+11,45,0,6.91,Individual
+7,27,8,96.67,Small Business
+3,27,6,187.8,Large Business
+12,38,0,15.51,Individual
+9,38,4,16.12,Individual
+12,34,11,77.96,Small Business
+10,28,3,14.66,Individual
+11,37,1,14.89,Individual
+6,29,5,13.64,Individual
+12,35,0,16.42,Individual
+13,32,1,15.09,Individual
+8,22,5,72.72,Small Business
+10,34,4,15.16,Individual
+15,33,5,47.46,Small Business
+7,29,0,21.85,Individual
+11,26,11,226.75,Large Business
+7,32,1,20.22,Individual
+5,32,2,19.05,Individual

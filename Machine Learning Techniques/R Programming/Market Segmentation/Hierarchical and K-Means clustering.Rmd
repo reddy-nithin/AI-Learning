@@ -1,0 +1,158 @@
+---
+title: "Assignment_Market_Segment"
+author: "Nithin"
+date: "2025-04-23"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#set the working directory
+setwd("/users/nithinreddy/R predictive")
+
+#Required libraries
+library(cluster)
+
+#read the online calculator customer dataset from the working directory
+dataset <- read.csv("dataset_online_calculator_customers.csv")
+dataset$customer_type <- as.factor(dataset$customer_type)
+summary(dataset)
+```
+
+# ------- Hierarchical clustering ----------- #
+
+```{r}
+data_hclust <- dataset[ ,  2:5]
+
+#compute the inter-observational distances uisng cluster variables
+distances <- daisy(data_hclust)
+distance_matrix <- as.matrix(distances)
+distance_matrix[1:5,1:5]
+```
+## 3 cluster Solution
+```{r}
+#Segment using hierarchical clustering technique (agglomeration)
+seg_hclust <- hclust(distances, method="complete")
+
+#create a 3 cluster solution
+seg_hclust_3 <- cutree(seg_hclust, k=3)
+dataset$hclust_3 <- seg_hclust_3
+
+table(dataset$hclust_3)
+
+#Summerize individual segments in a 3-cluster solution
+summary(dataset[which(dataset$hclust_3 == 1), 1:5])
+summary(dataset[which(dataset$hclust_3 == 2), 1:5])
+summary(dataset[which(dataset$hclust_3 == 3), 1:5])
+```
+
+## 4 cluster Solution
+```{r}
+#create a 4 cluster solution
+seg_hclust_4 <- cutree(seg_hclust, k=4)
+dataset$hclust_4 <- seg_hclust_4
+
+table(dataset$hclust_4)
+
+#Summerize individual segments in a 4-cluster solution
+summary(dataset[which(dataset$hclust_4 == 1), 1:5])
+summary(dataset[which(dataset$hclust_4 == 2), 1:5])
+summary(dataset[which(dataset$hclust_4 == 3), 1:5])
+summary(dataset[which(dataset$hclust_4 == 4), 1:5])
+
+```
+
+## 5 cluster Solution
+```{r}
+#create a 5 cluster solution
+seg_hclust_5 <- cutree(seg_hclust, k=5)
+dataset$hclust_5 <- seg_hclust_5
+
+table(dataset$hclust_5)
+
+#Summerize individual segments in a 5-cluster solution
+summary(dataset[which(dataset$hclust_5 == 1), 1:5])
+summary(dataset[which(dataset$hclust_5 == 2), 1:5])
+summary(dataset[which(dataset$hclust_5 == 3), 1:5])
+summary(dataset[which(dataset$hclust_5 == 4), 1:5])
+summary(dataset[which(dataset$hclust_5 == 5), 1:5])
+```
+
+## Dendogram
+```{r}
+plot(seg_hclust, labels=FALSE)
+#rect.hclust(seg_hclust, k=3, border="red")
+#rect.hclust(seg_hclust, k=4, border="blue")
+#rect.hclust(seg_hclust, k=5, border="green")
+```
+
+# ------ K-Means Clustering-----#
+
+```{r}
+data_kmeans <- data_hclust
+
+#coerce categorical as continuous (ordinal for Kmeans clustering)
+data_kmeans$size[dataset$customer_type == "Individual"] <- 1
+data_kmeans$size[dataset$customer_type == "Small Business"] <- 2
+data_kmeans$size[dataset$customer_type == "Large Business"] <- 3
+data_kmeans$customer_type <- NULL
+str(data_kmeans)
+```
+
+## K=3
+```{r}
+#Create candidate cluster solutions (k=3)
+set.seed(1000)
+seg_kmeans_3 <- kmeans(data_kmeans, centers = 3)
+dataset$kmeans_3 <- seg_kmeans_3$cluster
+
+# Describe the 3 cluster solution (distribution)
+table(dataset$kmeans_3)
+
+#Summerize individual segments in a 3-cluster kmeans solution
+summary(dataset[which(dataset$kmeans_3 == 1), 1:5])
+summary(dataset[which(dataset$kmeans_3 == 2), 1:5])
+summary(dataset[which(dataset$kmeans_3 == 3), 1:5])
+```
+
+## K=4
+```{r}
+#Create candidate cluster solutions (k=5)
+set.seed(1000)
+seg_kmeans_4 <- kmeans(data_kmeans, centers = 4)
+dataset$kmeans_4 <- seg_kmeans_4$cluster
+
+# Describe the 4 cluster solution (distribution)
+table(dataset$kmeans_4)
+
+#Summerize individual segments in a 4-cluster kmeans solution
+summary(dataset[which(dataset$kmeans_4 == 1), 1:5])
+summary(dataset[which(dataset$kmeans_4 == 2), 1:5])
+summary(dataset[which(dataset$kmeans_4 == 3), 1:5])
+summary(dataset[which(dataset$kmeans_4 == 4), 1:5])
+```
+
+# K = 5
+```{r}
+#Create candidate cluster solutions (k=5)
+set.seed(1000)
+seg_kmeans_5 <- kmeans(data_kmeans, centers = 5)
+dataset$kmeans_5 <- seg_kmeans_5$cluster
+
+# Describe the 5 cluster solution (distribution)
+table(dataset$kmeans_5)
+
+#Summerize individual segments in a 5-cluster kmeans solution
+summary(dataset[which(dataset$kmeans_5 == 1), 1:5])
+summary(dataset[which(dataset$kmeans_5 == 2), 1:5])
+summary(dataset[which(dataset$kmeans_5 == 3), 1:5])
+summary(dataset[which(dataset$kmeans_5 == 4), 1:5])
+summary(dataset[which(dataset$kmeans_5 == 5), 1:5])
+
+```
+
